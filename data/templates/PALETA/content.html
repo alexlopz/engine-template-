@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    {{!--<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">--}}
+</head>
+
+<style>
+    {#asset Demo st.css @encoding=utf8}
+    {{!--{#asset bootstrap.min.css @encoding=utf8}--}}
+    </style>
+
+
+<body>
+
+
+<div class="encabezado" >
+          <img class="logo-paleta" src='{#image encabezado-paleta}'/> 
+          <div class="titulo-header row">
+            <div class="col-sm-6 col-md-6"></div>
+            <div class="col-sm-6 col-md-6 titulo"><h3 >{{:titulo}}</h3></div>
+          </div>
+            <div class="row logo-paleta">
+              <div class="col-sm-6 col-md-6"><img src='{#image logo-paleta}'/></div>
+              <div class="col-sm-6 col-md-6"><h3 class="codigo-hoja" >Serie No. {{:serie}}</h3></div>
+            </div>
+</div>
+   
+Serie: {{:serie}}<br/>
+Fecha: {{:fecha}}<br/>
+<h2>Secciones:</h2><br/>
+
+{{for datos}}
+  <h3>{{:seccion}}</h3>
+  <div>{{:info}}</div>
+  __________________________________
+{{/for}}
+
+<br/>
+<br/>
+</body>
+
+
+<html>

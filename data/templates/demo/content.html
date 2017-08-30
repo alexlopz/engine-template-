@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+
+</head>
+<style>
+    {#asset Demo st.css @encoding=utf8}
+</style>
+
+<body>
+
+<h1>Mi primer mensaje </h1>
+
+
+
+{{for posts}}
+<h1>Titulo de todo: {{:titulo}}</h1> <br/>
+Serie: {{:serie}}<br/>
+Fecha: {{:fecha}}<br/>
+<h2>Secciones:</h2><br/>
+{{for datos}}
+
+<div class="cuerpo-caja">
+{{:seccion}}<br/>
+{{:info}}<br/>
+</div>
+{{/for}}
+
+<br/>
+<br/>
+__________________________________
+
+{{/for}}
+
+</body>
+
+</html>

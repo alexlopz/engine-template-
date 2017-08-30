@@ -1,0 +1,45 @@
+body{
+    margin: 0px !important;
+}
+
+h1{
+    color: blue !important;
+}
+
+
+ ul{
+    list-style-image: url(http://localhost:8082/img/icons/bullet.png) !important;
+}
+
+.encabezado {
+  /*background: url(/img/encabezado-paleta.svg);
+  background-repeat: no-repeat;
+  background-size: cover;*/
+  margin-bottom: 20px;
+
+}
+
+.encabezado img{
+  /*float: left;*/
+  height: 100%;
+  width: 100%;
+}
+.encabezado h3{
+  font-family: 'candara' !important;
+}
+
+.logo-paleta{
+    width: 30%;
+}
+.titulo-header {
+    color: white;
+    padding-left: 10%;
+    position: absolute;
+    top: 35px;
+    width: 100%;
+}
+
+.titulo-header, .titulo{
+    float: right;
+    padding-right: 33%;
+}

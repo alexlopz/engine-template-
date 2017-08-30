@@ -1,0 +1,43 @@
+{
+   "_id":"59767b4ff9bb3a02a6000001",
+   "id":"_hf1dix7p5",
+   "titulo":"Domestic Ultra",
+   "serie":"47xxxx",
+   "fecha":"2017-07-24T22:53:54.151Z",
+   "autor":"Alex",
+   "__v":0,
+   "datos":[
+      {
+         "seccion":"DESCRIPCIÓN",
+         "numero":"1",
+         "info":"<p>Pintura de látex de alta viscosidad, para uso en ambientes interiores y exteriores. Producto sistema base agua para acabados en concreto, repello, block, madera y metal</p>",
+         "id":"_p8kmsg73k"
+      },
+      {
+         "seccion":"CONDICIONES DE SERVICIO",
+         "numero":"2",
+         "info":"<ul><li>Producto: Línea No. 43XX</li><li><div>Tipo genérico: Acrílico</div></li><li><div>Colores: revisar colores disponibles según línea</div></li><li><div>Brillo: Mate</div></li><li><div>Sólidos por peso: 57%</div></li><li><div>Sólidos por volumen: 53%</div></li><li><div>Cubrimiento teórico: 70 m²/gal a 1 mil de película seca. Sin asumir pérdidas ni absorción de la superficie</div></li><li><div>Viscosidad: 93 - 97 KU</div></li><li><div>Peso por galón 12.7 libras a 25 °C</div></li><li><div>Tiempo de secado (25 °C, 50% H.R.):</div></li></ul>",
+         "id":"_wywr5sd74"
+      },
+      {
+         "seccion":"USOS TÍPICOS",
+         "numero":"3",
+         "info":"<p>para exteriores</p>",
+         "id":"_v2zr95i3i",
+         "salto": "salto"
+         
+      },
+      {
+         "info":"<div>Botella</div><p><br/></p><p class=\"p1\"><br/></p>",
+         "numero":"4",
+         "seccion":"PRESENTACIÓN",
+         "id":"_zx971i5pj"
+      },
+      {
+         "info":"sdfaksdjfksdf asdfasdjfaksdjfalskdjfa askjfalskdjfaklsdf aksjf;laksjdf aaksdfjals;dkfj asldf asdfj asdfkj aslk fjlaks jf skldf ka f asld jflasj fals jflask fl; j a sfl aslf jls f;la f asj fa fa f;alj flsdkf sdf<ul><li>Producto: Línea No. 43XX</li><li><div>Tipo genérico: Acrílico</div></li><li><div>Colores: revisar colores disponibles según línea</div></li><li><div>Brillo: Mate</div></li><li><div>Sólidos por peso: 57%</div></li><li><div>Sólidos por volumen: 53%</div></li><li><div>Cubrimiento teórico: 70 m²/gal a 1 mil de película seca. Sin asumir pérdidas ni absorción de la superficie</div></li><li><div>Viscosidad: 93 - 97 KU</div></li><li><div>Peso por galón 12.7 libras a 25 °C</div></li><li><div>Tiempo de secado (25 °C, 50% H.R.):</div></li></ul>",
+         "numero":"5",
+         "seccion":"Modelos",
+         "id":"_zx9da1i5pj"
+      }
+   ]
+}

@@ -1,0 +1,69 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Fluid grid</title>
+    <style>
+ {#asset paleta.css @encoding=utf8}
+ 
+    </style>
+  </head>
+
+  <body>
+      <div class="titulo"> 
+        <h3>{{:titulo}}</h3>
+      </div>
+      
+    <img class="encabezado-paleta" src='{#image encabezado-paleta}'/>
+    <div class="container">  
+     
+        <table class="sub-encabezado">
+            <tr>
+                <td class="logo-paleta"><img src='{#image logo-paleta}'/></td>
+                <td class="serie"valign="top">Serie No.{{:serie}}</td>
+            </tr>
+        </table> 
+         {{for datos}}
+        <table class="secciones {{:salto}}"  cellspacing="0">
+          
+              <tr>
+                <td class="num" valign="top">{{:numero}}</td>
+                <td class="name" valign="middle">{{:seccion}}</td>
+                <td class="parrafo">{{:info}}</td>
+              </tr>
+             
+        </table>
+    {{/for}}
+    
+        
+    </div>
+    
+    {{!--<table class="pieInfo"  cellspacing="0">--}}
+    {{!--            <td class="num" valign="top"></td>--}}
+    {{!--            <td class="name" valign="middle">Nota</td>--}}
+    {{!--            <td class="parrafo" style="border-left:none !important">--}}
+    {{!--                Todos los datos físicos que se proporcionan en la sección de Características del--}}
+    {{!--                Producto se refieren al producto sin diluir.--}}
+    {{!--            </td>--}}
+    {{!--          </tr>--}}
+            
+    {{!--    </table>--}}
+    
+    {{!--<div  class="pieInfo">--}}
+    {{!--    adsjfladkfladkjflad fladjflasdjfladjffasdfadf--}}
+    {{!--</div>--}}
+        
+
+    {{!--<footer>--}}
+    {{!--    <img src='{#image footer-ultimo}'/>--}}
+
+
+    {{!--</footer>--}}
+        
+    {{!--<img class="foo" src='http://localhost:8082/img/footer-paleta.svg' >--}}
+    
+    <img class="foo" src='{#image footer-ultimo}'/>
+
+
+
+  </body>
+</html>

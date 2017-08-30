@@ -1,0 +1,20 @@
+{
+    "shortid": "rJE0SozIW",
+    "recipe": "html",
+    "engine": "jsrender",
+    "phantom": {
+        "phantomjsVersion": "2.1.1",
+        "format": "Letter",
+        "orientation": "portrait",
+        "fitToPage": true,
+        "margin": "{\"top\":\"0px\",\"left\":\"0px\",\"right\":\"0px\",\"bottom\":\"0px\"}",
+        "headerHeight": "0px"
+    },
+    "modificationDate": {
+        "$$date": 1501040735576
+    },
+    "_id": "p6sIkJ6308accCZX",
+    "data": {
+        "shortid": "BJa3WGZIZ"
+    }
+}

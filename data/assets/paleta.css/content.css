@@ -1,0 +1,143 @@
+@font-face{
+  font-family: 'myriadProBold';
+  src: url('http://localhost:8082/css/fonts/MyriadPro-Bold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+@font-face{
+  font-family: 'myriadProregular';
+  src: url('http://localhost:8082/css/fonts/MyriadPro-Regular.woff') format('woff'),
+       url('http://localhost:8082/css/fonts/MyriadPro-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'candara';
+  src: url('http://localhost:8082/css/fonts/Candarab.eot');
+  src: url('http://localhost:8082/css/fonts/Candarab.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+html{
+    position: relative;
+}
+
+body{
+    margin:  0px !important;
+}
+ ul{
+    list-style-image: url(http://localhost:8082/img/icons/bullet.svg) !important;
+}
+table,
+table tr td,
+table tr th {
+	page-break-inside: a;
+}
+
+
+
+.salto{
+    page-break-before: always;
+    padding-top: 25px !important;
+}
+.container{
+     width: 100%;
+     /*background: red;*/
+}
+
+.encabezado-paleta{
+    width: 100%;
+}
+.sub-encabezado{
+    margin: 0px 0px 10px 30px;
+    width: 91%;
+}
+.sub-encabezado td{
+    width: 50%;
+}
+.logo-paleta img{
+    width: 60%;
+    /*margin: 10px 0px 10px 30px;*/
+}
+
+.secciones,.pieInfo{
+    font-size: 12px;
+    margin: 0px 0px 0px 30px;
+    width: 91%;
+}
+
+.secciones h4{
+    font-size: 12px;
+    font-family: 'myriadProBold' !important;
+}
+.serie{
+    text-align: end;
+    font-family: 'candara';
+}
+    
+.parrafo{
+    font-size:10px;
+    font-family: 'myriadProregular';
+    width: 75%;
+    border-left: 3px solid white;
+    padding: 10px;
+    border-bottom: 3px solid white;
+}
+.secciones td{
+    background: #eaeaea;
+}
+.num{
+    font-family: 'myriadProBold' !important;
+    color: darkgrey;
+    font-size: 16px;
+    padding: 10px;
+    border-bottom: 3px solid white;
+}
+.name{
+    font-size: 12px;
+    font-family: 'myriadProBold' !important;
+    width: 20%;
+    border-bottom: 3px solid white;
+}
+
+.titulo{
+    font-family: 'candara';
+    color: white;
+    top: 45px;
+    width: 95%;
+    position: fixed;
+    text-align: end;
+}
+
+footer{
+    /*position: fixed;*/
+    height: 20%;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+}
+
+.foo{
+    width: 100%;
+    
+    display: none;
+}
+
+.pieInfo{
+    background: blue;
+    height: 50px;
+    position: absolute;
+    bottom: -400px;
+   
+    
+}
+
+
+
+
+
+
